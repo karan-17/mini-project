@@ -6,7 +6,7 @@ import 'package:simlockapp/core/carousel.dart';
 import 'package:simlockapp/core/common_button.dart';
 
 class SplashScreen extends StatelessWidget {
-  // static String routeName='/splash';
+  static const routeName='/splash';
   @override
   Widget build(BuildContext context) {
     return GetX<SplashController>(

@@ -7,6 +7,7 @@ import '../../../core/customAppBar.dart';
 import 'for_pass_controller.dart';
 
 class ForgotPassword extends StatelessWidget {
+  static const routeName= '/forget-password';
   @override
   Widget build(BuildContext context) {
     return GetBuilder<ForgotController>(

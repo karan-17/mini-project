@@ -4,6 +4,7 @@ import 'package:simlockapp/core/customAppBar.dart';
 import 'package:simlockapp/core/common_button.dart';
 
 class LoginSuccess extends StatelessWidget {
+  static const routeName= '/login-success';
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -8,6 +8,7 @@ import 'HomeComponents.dart';
 import 'home_screen_controller.dart';
 
 class HomePage extends StatelessWidget {
+  static const routeName= '/home-page';
   @override
   Widget build(BuildContext context) {
     final ProductController productcontroller = Get.put(ProductController());

@@ -5,7 +5,12 @@ import 'package:simlockapp/screens/homescreen/home_screen.dart';
 import 'package:simlockapp/screens/loginscreen/login_home.dart';
 import 'package:simlockapp/screens/loginscreen/login_success._struct.dart';
 import 'package:simlockapp/screens/onboardscreen/splash_screen.dart';
+import 'screens/completeprofilescreen/completeprofilescreen.dart';
 import 'screens/forgot_password/forgot_password.dart';
+import 'screens/otpscreen/otpscreen.dart';
+import 'screens/productdetailscreen/productdetailscreen.dart';
+import 'screens/signupscreen/signupscreen.dart';
+import 'screens/userprofilescreen/userprofilescreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,14 +23,22 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: theme(),
-      initialRoute: '/splash-screen',
+      initialRoute: SplashScreen.routeName,
       getPages: [
-        GetPage(name: '/splash-screen', page: () => SplashScreen()),
-        GetPage(name: '/forget-password', page: () => ForgotPassword()),
-        GetPage(name: '/login-success', page: () => LoginSuccess()),
-        GetPage(name: '/login-screen', page: () => LoginScreen()),
-        GetPage(name: '/home-page', page: () => HomePage()),
-        GetPage(name: '/cart-page', page: () => CartScreen()),
+        GetPage(name: SplashScreen.routeName, page: () => SplashScreen()),
+        GetPage(name: SignUpScreen.routeName, page: () => SignUpScreen()),
+        GetPage(name: ForgotPassword.routeName, page: () => ForgotPassword()),
+        GetPage(name: LoginSuccess.routeName, page: () => LoginSuccess()),
+        GetPage(name: LoginScreen.routeName, page: () => LoginScreen()),
+        GetPage(name: HomePage.routeName, page: () => HomePage()),
+        GetPage(name: CartScreen.routeName, page: () => CartScreen()),
+        GetPage(
+            name: CompleteProfileScreen.routeName,
+            page: () => CompleteProfileScreen()),
+        GetPage(name: OTPScreen.routeName, page: () => OTPScreen()),
+        GetPage(name: ProductDetail.routeName, page: () => ProductDetail()),
+        GetPage(
+            name: UserProfileScreen.routeName, page: () => UserProfileScreen()),
       ],
     );
   }
