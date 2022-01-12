@@ -32,10 +32,13 @@ class MyApp extends StatelessWidget {
         GetPage(name: LoginScreen.routeName, page: () => LoginScreen()),
         GetPage(name: HomePage.routeName, page: () => HomePage()),
         GetPage(name: CartScreen.routeName, page: () => CartScreen()),
-        GetPage(name: CompleteProfileScreen.routeName, page: () => CompleteProfileScreen()),
+        GetPage(
+            name: CompleteProfileScreen.routeName,
+            page: () => CompleteProfileScreen()),
         GetPage(name: OTPScreen.routeName, page: () => OTPScreen()),
         GetPage(name: ProductDetail.routeName, page: () => ProductDetail()),
-        GetPage(name: UserProfileScreen.routeName, page: () => UserProfileScreen()),
+        GetPage(
+            name: UserProfileScreen.routeName, page: () => UserProfileScreen()),
       ],
     );
   }
