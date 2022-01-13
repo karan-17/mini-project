@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/screens/Cart/cart_page.dart';
-import 'package:simlockapp/screens/homescreen/home_screen.dart';
-import 'package:simlockapp/screens/loginscreen/login_home.dart';
-import 'package:simlockapp/screens/loginscreen/login_success._struct.dart';
-import 'package:simlockapp/screens/onboardscreen/splash_screen.dart';
+import 'screens/Cart/cart_page.dart';
 import 'screens/completeprofilescreen/completeprofilescreen.dart';
 import 'screens/forgot_password/forgot_password.dart';
+import 'screens/homescreen/home_screen.dart';
+import 'screens/loginscreen/login_home.dart';
+import 'screens/loginscreen/login_success._struct.dart';
+import 'screens/onboardscreen/splash_screen.dart';
 import 'screens/otpscreen/otpscreen.dart';
 import 'screens/productdetailscreen/productdetailscreen.dart';
 import 'screens/signupscreen/signupscreen.dart';

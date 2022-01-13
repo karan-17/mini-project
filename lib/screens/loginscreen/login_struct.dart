@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/screens/loginscreen/login_controller.dart';
-import 'package:simlockapp/core/common_button.dart';
-import 'package:simlockapp/screens/loginscreen/socialcard.dart';
+import 'package:miniproject/core/common_button.dart';
+import 'package:miniproject/screens/forgot_password/forgot_password.dart';
+import 'package:miniproject/screens/loginscreen/login_success._struct.dart';
+import 'package:miniproject/screens/loginscreen/socialcard.dart';
+import 'package:miniproject/screens/signupscreen/signupscreen.dart';
 
 import '../../core/customAppBar.dart';
+import 'login_controller.dart';
 
 class LoginStruct extends StatelessWidget {
   @override
@@ -104,7 +107,7 @@ class LoginStruct extends StatelessWidget {
                         Spacer(),
                         TextButton(
                           onPressed: () {
-                            Get.toNamed('/forget-password');
+                            Get.toNamed(ForgotPassword.routeName);
                           },
                           child: Text(
                             "Forgot Password",
@@ -120,7 +123,7 @@ class LoginStruct extends StatelessWidget {
                         text: 'Login',
                         press: () {
                           if (controller.checkLogin())
-                            Get.toNamed('/login-success');
+                            Get.toNamed(LoginSuccess.routeName);
                         }),
                     SizedBox(
                       height: 30,
@@ -160,9 +163,17 @@ class LoginStruct extends StatelessWidget {
                           "Don't have an account? ",
                           style: TextStyle(fontSize: 16, color: Colors.black),
                         ),
-                        Text("Sign Up ",
-                            style:
-                                TextStyle(fontSize: 16, color: Colors.black54))
+                        TextButton(
+                          onPressed: () {
+                            Get.toNamed(SignUpScreen.routeName);
+                          },
+                          child: Text(
+                            "Sign Up",
+                            style: TextStyle(
+                                decoration: TextDecoration.underline,
+                                color: Colors.black54),
+                          ),
+                        ),
                       ],
                     ),
                   ]),

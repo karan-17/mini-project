@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/screens/Cart/cart_controller.dart';
-import 'package:simlockapp/screens/homescreen/home_screen_controller.dart';
-import 'package:simlockapp/screens/homescreen/offers.dart';
-
+import 'package:miniproject/screens/Cart/cart_controller.dart';
+import 'home_screen_controller.dart';
+import 'offers.dart';
 class SearchField extends StatelessWidget {
   const SearchField({
     Key? key,

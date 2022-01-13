@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/screens/loginscreen/login_home.dart';
-import 'package:simlockapp/core/common_button.dart';
+import 'package:miniproject/core/common_button.dart';
+import 'package:miniproject/screens/otpscreen/otpscreen.dart';
+import 'package:miniproject/screens/signupscreen/signupscreen.dart';
 
 import '../../../core/customAppBar.dart';
 import 'for_pass_controller.dart';
@@ -75,24 +76,27 @@ class ForgotPassword extends StatelessWidget {
                         SizedBox(
                           height: 150,
                         ),
-                        commonButton(text: 'Continue', press: () {}),
+                        commonButton(text: 'Continue', press: () {
+                          Get.toNamed(OTPScreen.routeName);
+                        }),
                         SizedBox(
                           height: 150,
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text(
-                              "Don't have an account? ",
-                              style:
-                                  TextStyle(fontSize: 16, color: Colors.black),
-                            ),
-                            // GestureDetector(
-                            //   onTap: () { /*Get.to(() => SignUpScreen());*/},
-                            /*child:*/ Text("Sign Up ",
+                            Text("Don't have an account?"),
+                            TextButton(
+                              onPressed: () {
+                                Get.toNamed(SignUpScreen.routeName);
+                              },
+                              child: Text(
+                                "Sign Up",
                                 style: TextStyle(
-                                    fontSize: 16, color: Colors.black54))
-                            //),
+                                    decoration: TextDecoration.underline,
+                                    color: Colors.black54),
+                              ),
+                            ),
                           ],
                         ),
                       ]),

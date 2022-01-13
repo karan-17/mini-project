@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/screens/Cart/cart_controller.dart';
 
 import '../../core/common_button.dart';
+import 'cart_controller.dart';
 
 class CheckOutCard extends StatelessWidget {
   const CheckOutCard({

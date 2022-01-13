@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/core/continuebutton.dart';
-import 'package:simlockapp/core/signuppagefootertext.dart';
-import 'package:simlockapp/core/signupscreenheadtext.dart';
-import 'package:simlockapp/core/simpleappbar.dart';
-import 'package:simlockapp/core/textformfield.dart';
-import 'package:simlockapp/screens/otpscreen/otpscreen.dart';
+import 'package:miniproject/core/continuebutton.dart';
+import 'package:miniproject/core/signuppagefootertext.dart';
+import 'package:miniproject/core/signupscreenheadtext.dart';
+import 'package:miniproject/core/simpleappbar.dart';
+import 'package:miniproject/core/textformfield.dart';
+import 'package:miniproject/screens/otpscreen/otpscreen.dart';
 
 import 'userController.dart';
 

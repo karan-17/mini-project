@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:simlockapp/models/user.dart';
+import 'package:miniproject/models/user.dart';
 
 
 class UserController extends GetxController {

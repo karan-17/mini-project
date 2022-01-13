@@ -2,13 +2,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/core/continuebutton.dart';
-import 'package:simlockapp/core/signuppagefootertext.dart';
-import 'package:simlockapp/core/signupscreenheadtext.dart';
-import 'package:simlockapp/core/simpleappbar.dart';
-import 'package:simlockapp/core/textformfield.dart';
-import 'package:simlockapp/screens/completeprofilescreen/completeprofilescreen.dart';
-import 'package:simlockapp/screens/completeprofilescreen/userController.dart';
+import 'package:miniproject/core/continuebutton.dart';
+import 'package:miniproject/core/signuppagefootertext.dart';
+import 'package:miniproject/core/signupscreenheadtext.dart';
+import 'package:miniproject/core/simpleappbar.dart';
+import 'package:miniproject/core/textformfield.dart';
+import 'package:miniproject/screens/completeprofilescreen/completeprofilescreen.dart';
+import 'package:miniproject/screens/completeprofilescreen/userController.dart';
 
 class SignUpScreen extends StatelessWidget {
   SignUpScreen({Key? key}) : super(key: key);

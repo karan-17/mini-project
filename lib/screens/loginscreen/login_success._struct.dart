@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/core/customAppBar.dart';
-import 'package:simlockapp/core/common_button.dart';
+import 'package:miniproject/core/common_button.dart';
+import 'package:miniproject/core/customAppBar.dart';
 
 class LoginSuccess extends StatelessWidget {
   static const routeName= '/login-success';

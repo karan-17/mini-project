@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/core/continuebutton.dart';
-import 'package:simlockapp/core/signupscreenheadtext.dart';
-import 'package:simlockapp/core/simpleappbar.dart';
-import 'package:simlockapp/screens/onboardscreen/splash_screen.dart';
+import 'package:miniproject/core/continuebutton.dart';
+import 'package:miniproject/core/signupscreenheadtext.dart';
+import 'package:miniproject/core/simpleappbar.dart';
+import 'package:miniproject/screens/onboardscreen/splash_screen.dart';
 
 late FocusNode focusNodeOne;
 late FocusNode focusNodeTwo;

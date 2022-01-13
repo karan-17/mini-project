@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/core/continuebutton.dart';
-import 'package:simlockapp/screens/Cart/cart_page.dart';
+import 'package:miniproject/core/continuebutton.dart';
+import 'package:miniproject/screens/Cart/cart_page.dart';
 import 'package:transparent_image/transparent_image.dart';
 import '/models/products.dart';
 

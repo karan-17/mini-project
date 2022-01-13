@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/screens/loginscreen/login_home.dart';
-import 'package:simlockapp/screens/onboardscreen/splash_controller.dart';
-import 'package:simlockapp/core/carousel.dart';
-import 'package:simlockapp/core/common_button.dart';
+import 'package:miniproject/core/carousel.dart';
+import 'package:miniproject/core/common_button.dart';
+
+import 'splash_controller.dart';
+
 
 class SplashScreen extends StatelessWidget {
   static const routeName='/splash';

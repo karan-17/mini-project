@@ -1,9 +1,7 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/screens/Cart/cart_controller.dart';
-import 'package:simlockapp/screens/homescreen/offers.dart';
+import 'package:miniproject/screens/Cart/cart_controller.dart';
+import 'package:miniproject/screens/productdetailscreen/productdetailscreen.dart';
 import 'HomeComponents.dart';
 import 'home_screen_controller.dart';
 
@@ -106,7 +104,9 @@ class HomePage extends StatelessWidget {
                         ...List.generate(productcontroller.demoProducts.length,
                                 (index) => ProductCard(
                               product: productcontroller.demoProducts[index],
-                              press: () {  },
+                              press: () {
+                                Get.toNamed(ProductDetail.routeName);
+                              },
                             )
                         )
                       ],

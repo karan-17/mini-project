@@ -2,10 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:simlockapp/screens/Cart/cart_controller.dart';
-import 'package:simlockapp/screens/Cart/checkoutcard.dart';
 import '../../core/customAppBar.dart';
 import 'cart_components.dart';
+import 'cart_controller.dart';
+import 'checkoutcard.dart';
 
 class CartScreen extends StatelessWidget {
   static const routeName= '/cart-screen';
