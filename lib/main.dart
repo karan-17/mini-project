@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'screens/Cart/cart_page.dart';
 import 'screens/completeprofilescreen/completeprofilescreen.dart';
@@ -53,8 +54,7 @@ class MyApp extends StatelessWidget {
       ),
       appBarTheme: AppBarTheme(
         color: Colors.white,
-        elevation: 0,
-        brightness: Brightness.light,
+        elevation: 0, systemOverlayStyle: SystemUiOverlayStyle.dark,
       ),
       visualDensity: VisualDensity.adaptivePlatformDensity,
     );
